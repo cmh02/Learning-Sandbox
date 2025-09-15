@@ -8,4 +8,4 @@ Welcome to my learning sandbox! This will be a single repository for all of the 
 
 | Project Name                | Project Directory                                    | Frameworks or Libraries Used |
 | --------------------------- | ---------------------------------------------------- | ---------------------------- |
-| Flash Notes API + Webviewer | [flash-notes-api-webviewer](flask-notes-api-webviewer/) | Flask                        |
+| Flash Notes API + Webviewer | [flash-notes-api-webviewer](flask-notes-api-webviewer/) | Flask, SQLite                |
