@@ -3,3 +3,6 @@
 
 # VS-Code Workplace
 *.code-workspace
+
+# DS Store
+.DS_Store
