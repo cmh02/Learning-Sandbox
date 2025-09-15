@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+  <form action="{{ url_for('add_note') }}" method="post">
+      <input type="text" name="note" placeholder="Write a note..." required>
+      <button type="submit">Add</button>
+  </form>
+
+  <ul>
+    {% for note in notes %}
+      <li>
+        {{ note.text }}
+        <a href="{{ url_for('delete_note', note_id=note.id) }}">[Delete]</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
