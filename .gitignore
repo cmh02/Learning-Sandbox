@@ -206,3 +206,6 @@ data/.DS_Store
 
 # VS-Code Workplace
 *.code-workspace
+
+# Private sandbox projects
+priv.*/
